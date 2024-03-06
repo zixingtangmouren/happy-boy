@@ -7,8 +7,10 @@
     "declarations": true
   },
   "dependencies": {
+    "chinese-lunar": "^0.1.4",
     "egg": "^3.17.5",
-    "egg-scripts": "2"
+    "egg-scripts": "2",
+    "egg-view-nunjucks": "^2.3.0"
   },
   "devDependencies": {
     "egg-bin": "6",
