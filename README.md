@@ -1,31 +1,25 @@
 # happy-boy
 
+- egg 工程初始化
+- vite 工程初始化
+- egg + vite 开发工程
+- egg + vite 部署工程
+- 支持 ts
+- 支持 eslint
+- 支持 prettier
+- 支持 commitlint
 
-
-## QuickStart
-
-<!-- add docs here for user -->
-
-see [egg docs][egg] for more detail.
-
-### Development
-
-```bash
-npm i
-npm run dev
-open http://localhost:7001/
-```
-
-### Deploy
+## 开发
 
 ```bash
-npm start
-npm stop
+$ pnpm i
+$ pnpm dev
+$ open http://localhost:7001/
 ```
 
-### npm scripts
+## 部署
 
-- Use `npm run lint` to check code style.
-- Use `npm test` to run unit test.
-
-[egg]: https://eggjs.org
+```bash
+$ pnpm tsc
+$ pnpm start
+```

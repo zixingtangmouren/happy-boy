@@ -2,39 +2,15 @@
   "name": "happy-boy",
   "version": "1.0.0",
   "description": "",
-  "private": true,
-  "egg": {
-    "declarations": true
-  },
-  "dependencies": {
-    "chinese-lunar": "^0.1.4",
-    "egg": "^3.17.5",
-    "egg-scripts": "2",
-    "egg-view-nunjucks": "^2.3.0"
-  },
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "devDependencies": {
-    "egg-bin": "6",
-    "egg-mock": "5",
-    "eslint": "8",
-    "eslint-config-egg": "13"
-  },
-  "engines": {
-    "node": ">=18.0.0"
+    "eslint": "^8.57.0",
+    "typescript": "^5.4.3"
   },
   "scripts": {
-    "start": "egg-scripts start --daemon --title=egg-server-happy-boy",
-    "stop": "egg-scripts stop --title=egg-server-happy-boy",
-    "dev": "egg-bin dev",
-    "test": "npm run lint -- --fix && npm run test:local",
-    "test:local": "egg-bin test",
-    "cov": "egg-bin cov",
-    "lint": "eslint .",
-    "ci": "npm run lint && npm run cov"
-  },
-  "repository": {
-    "type": "git",
-    "url": ""
-  },
-  "author": "",
-  "license": "MIT"
+    "dev": "pnpm -r -F @happy-boy/server run dev"
+  }
 }

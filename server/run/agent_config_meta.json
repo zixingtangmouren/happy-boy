@@ -1,0 +1,296 @@
+{
+  "keys": "/Users/tangmouren/development/project/happy-boy/server/config/config.default.ts",
+  "news": {
+    "pageSize": "/Users/tangmouren/development/project/happy-boy/server/config/config.local.ts"
+  },
+  "session": {
+    "maxAge": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-session@3.3.0/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-session@3.3.0/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-session@3.3.0/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-session@3.3.0/node_modules/egg-session/config/config.default.js",
+    "logValue": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-session@3.3.0/node_modules/egg-session/config/config.default.js"
+  },
+  "security": {
+    "domainWhiteList": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-security@3.2.0/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-security@3.2.0/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-security@3.2.0/node_modules/egg-security/config/config.default.js",
+    "csrf": {
+      "enable": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-security@3.2.0/node_modules/egg-security/config/config.default.js",
+      "type": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-security@3.2.0/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-security@3.2.0/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-security@3.2.0/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-security@3.2.0/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-security@3.2.0/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-security@3.2.0/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-security@3.2.0/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-security@3.2.0/node_modules/egg-security/config/config.default.js",
+      "supportedRequests": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-security@3.2.0/node_modules/egg-security/config/config.default.js",
+      "refererWhiteList": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-security@3.2.0/node_modules/egg-security/config/config.default.js",
+      "cookieOptions": {
+        "signed": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-security@3.2.0/node_modules/egg-security/config/config.default.js"
+      }
+    },
+    "xframe": {
+      "enable": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-security@3.2.0/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-security@3.2.0/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-security@3.2.0/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-security@3.2.0/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-security@3.2.0/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-security@3.2.0/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-security@3.2.0/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-security@3.2.0/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-security@3.2.0/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-security@3.2.0/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-security@3.2.0/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-security@3.2.0/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-security@3.2.0/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-security@3.2.0/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-security@3.2.0/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-security@3.2.0/node_modules/egg-security/config/config.default.js",
+      "ipExceptionList": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-security@3.2.0/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-security@3.2.0/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "helper": {
+    "shtml": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-security@3.2.0/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-jsonp@2.0.0/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-jsonp@2.0.0/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-jsonp@2.0.0/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-onerror@2.2.0/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-onerror@2.2.0/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-onerror@2.2.0/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-i18n@2.1.1/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-i18n@2.1.1/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-i18n@2.1.1/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-i18n@2.1.1/node_modules/egg-i18n/config/config.default.js",
+    "cookieDomain": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-i18n@2.1.1/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-i18n@2.1.1/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-watcher@3.1.1/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-watcher@3.1.1/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-watcher@3.1.1/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-schedule@4.0.1/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-schedule@4.0.1/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-schedule@4.0.1/node_modules/egg-schedule/config/config.default.js"
+  },
+  "multipart": {
+    "mode": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-multipart@3.3.0/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-multipart@3.3.0/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-multipart@3.3.0/node_modules/egg-multipart/config/config.default.js",
+    "defaultParamCharset": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-multipart@3.3.0/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-multipart@3.3.0/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-multipart@3.3.0/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-multipart@3.3.0/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-multipart@3.3.0/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-multipart@3.3.0/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-multipart@3.3.0/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-multipart@3.3.0/node_modules/egg-multipart/config/config.default.js",
+    "allowArrayField": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-multipart@3.3.0/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-multipart@3.3.0/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-multipart@3.3.0/node_modules/egg-multipart/config/config.default.js",
+      "disable": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-multipart@3.3.0/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-development@2.7.0/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-development@2.7.0/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-development@2.7.0/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-development@2.7.0/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-development@2.7.0/node_modules/egg-development/config/config.default.js",
+    "overrideIgnore": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-development@2.7.0/node_modules/egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-logrotator@3.1.0/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-logrotator@3.1.0/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-logrotator@3.1.0/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-logrotator@3.1.0/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-logrotator@3.1.0/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-logrotator@3.1.0/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-logrotator@3.1.0/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-static@2.3.1/node_modules/egg-static/config/config.default.js",
+    "dir": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-static@2.3.1/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-static@2.3.1/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-static@2.3.1/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-static@2.3.1/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-static@2.3.1/node_modules/egg-static/config/config.default.js"
+  },
+  "view": {
+    "root": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-view@2.1.4/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-view@2.1.4/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-view@2.1.4/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-view@2.1.4/node_modules/egg-view/config/config.default.js",
+    "mapping": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-view@2.1.4/node_modules/egg-view/config/config.default.js"
+  },
+  "nunjucks": {
+    "autoescape": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-view-nunjucks@2.3.0/node_modules/egg-view-nunjucks/config/config.default.js",
+    "throwOnUndefined": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-view-nunjucks@2.3.0/node_modules/egg-view-nunjucks/config/config.default.js",
+    "trimBlocks": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-view-nunjucks@2.3.0/node_modules/egg-view-nunjucks/config/config.default.js",
+    "lstripBlocks": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-view-nunjucks@2.3.0/node_modules/egg-view-nunjucks/config/config.default.js",
+    "cache": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg-view-nunjucks@2.3.0/node_modules/egg-view-nunjucks/config/config.local.js"
+  },
+  "env": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg@3.20.0/node_modules/egg/config/config.default.js",
+  "name": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg@3.20.0/node_modules/egg/config/config.default.js",
+  "cookies": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg@3.20.0/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg@3.20.0/node_modules/egg/config/config.default.js",
+  "maxIpsCount": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg@3.20.0/node_modules/egg/config/config.default.js",
+  "maxProxyCount": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg@3.20.0/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg@3.20.0/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg@3.20.0/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg@3.20.0/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg@3.20.0/node_modules/egg/config/config.default.js",
+    "version": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg@3.20.0/node_modules/egg/config/config.default.js",
+    "description": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg@3.20.0/node_modules/egg/config/config.default.js",
+    "main": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg@3.20.0/node_modules/egg/config/config.default.js",
+    "scripts": {
+      "dev": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg@3.20.0/node_modules/egg/config/config.default.js",
+      "start": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg@3.20.0/node_modules/egg/config/config.default.js",
+      "tsc": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg@3.20.0/node_modules/egg/config/config.default.js"
+    },
+    "keywords": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg@3.20.0/node_modules/egg/config/config.default.js",
+    "author": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg@3.20.0/node_modules/egg/config/config.default.js",
+    "license": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg@3.20.0/node_modules/egg/config/config.default.js",
+    "dependencies": {
+      "egg": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg@3.20.0/node_modules/egg/config/config.default.js",
+      "egg-scripts": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg@3.20.0/node_modules/egg/config/config.default.js",
+      "egg-view-nunjucks": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg@3.20.0/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "@eggjs/tsconfig": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg@3.20.0/node_modules/egg/config/config.default.js",
+      "egg-bin": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg@3.20.0/node_modules/egg/config/config.default.js"
+    }
+  },
+  "baseDir": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg@3.20.0/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg@3.20.0/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg@3.20.0/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg@3.20.0/node_modules/egg/config/config.default.js",
+    "timing": {
+      "slowBootActionMinDuration": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg@3.20.0/node_modules/egg/config/config.default.js"
+    }
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg@3.20.0/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg@3.20.0/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg@3.20.0/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg@3.20.0/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg@3.20.0/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg@3.20.0/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg@3.20.0/node_modules/egg/config/config.default.js",
+    "cacheControl": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg@3.20.0/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg@3.20.0/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg@3.20.0/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg@3.20.0/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg@3.20.0/node_modules/egg/config/config.default.js",
+    "textLimit": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg@3.20.0/node_modules/egg/config/config.default.js",
+    "strict": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg@3.20.0/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg@3.20.0/node_modules/egg/config/config.default.js",
+      "depth": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg@3.20.0/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg@3.20.0/node_modules/egg/config/config.default.js"
+    },
+    "onerror": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg@3.20.0/node_modules/egg/config/config.default.js"
+  },
+  "logger": {
+    "dir": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg@3.20.0/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg@3.20.0/node_modules/egg/config/config.default.js",
+    "env": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg@3.20.0/node_modules/egg/config/config.default.js",
+    "level": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg@3.20.0/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg@3.20.0/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg@3.20.0/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg@3.20.0/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg@3.20.0/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg@3.20.0/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg@3.20.0/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg@3.20.0/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg@3.20.0/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg@3.20.0/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg@3.20.0/node_modules/egg/config/config.default.js",
+    "enablePerformanceTimer": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg@3.20.0/node_modules/egg/config/config.default.js",
+    "enableFastContextLogger": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg@3.20.0/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg@3.20.0/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg@3.20.0/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg@3.20.0/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg@3.20.0/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg@3.20.0/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg@3.20.0/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg@3.20.0/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg@3.20.0/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg@3.20.0/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg@3.20.0/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg@3.20.0/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg@3.20.0/node_modules/egg/config/config.default.js"
+    },
+    "useHttpClientNext": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg@3.20.0/node_modules/egg/config/config.default.js"
+  },
+  "meta": {
+    "enable": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg@3.20.0/node_modules/egg/config/config.default.js",
+    "logging": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg@3.20.0/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg@3.20.0/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg@3.20.0/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg@3.20.0/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg@3.20.0/node_modules/egg/config/config.default.js",
+      "port": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg@3.20.0/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg@3.20.0/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg@3.20.0/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg@3.20.0/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/Users/tangmouren/development/project/happy-boy/node_modules/.pnpm/egg@3.20.0/node_modules/egg/config/config.default.js"
+}
