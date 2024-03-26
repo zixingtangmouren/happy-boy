@@ -1,0 +1,27 @@
+{
+  "name": "@happy-boy/server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "egg-bin dev --port 7001",
+    "start": "egg-scripts start --daemon --title=egg-server-happy-boy",
+    "tsc": "tsc -p tsconfig.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "egg": "^3.20.0",
+    "egg-scripts": "^3.0.0",
+    "egg-view-nunjucks": "^2.3.0",
+    "koa2-connect": "^1.0.2",
+    "path-to-regexp": "^6.2.1"
+  },
+  "devDependencies": {
+    "@eggjs/tsconfig": "^1.3.3",
+    "egg-bin": "^6.8.1",
+    "http-proxy-middleware": "^2.0.6",
+    "vite": "^5.2.6"
+  }
+}
