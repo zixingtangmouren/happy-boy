@@ -12,11 +12,9 @@ export default (appInfo: EggAppConfig) => {
   config.view = {
     defaultViewEngine: 'nunjucks',
     mapping: {
-      '.tpl': 'nunjucks',
+      '.html': 'nunjucks',
     },
   };
-
-  config.middleware = ['viteDevServer'];
 
   return config;
 };
