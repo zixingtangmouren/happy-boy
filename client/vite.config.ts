@@ -10,6 +10,7 @@ export default defineConfig({
   server: {
     middlewareMode: true,
   },
+  appType: 'custom',
   base: '/static',
   css: {
     modules: {

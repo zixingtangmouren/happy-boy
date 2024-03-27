@@ -10,7 +10,7 @@ export default class HomeController extends Controller {
     const html = await server.transformIndexHtml(
       this.ctx.request.url,
       await fs.promises.readFile(
-        path.join(process.cwd(), 'client/index.html'),
+        path.join(__dirname, '../../../client/index.html'),
         'utf-8'
       )
     );
