@@ -25,4 +25,11 @@ export default defineConfig({
       ],
     },
   },
+  build: {
+    manifest: true,
+    outDir: path.join(__dirname, '../server/app/public'),
+    rollupOptions: {
+      input: path.join(__dirname, 'src/main.tsx'),
+    },
+  },
 });
