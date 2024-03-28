@@ -9,10 +9,10 @@ const XiaoLiuRen = lazy(() => import('./modules/xiao-liu-ren'));
 function App() {
   return (
     <div>
-      <BrowserRouter basename="/">
+      <BrowserRouter basename="/happy">
         <Routes>
           <Route
-            path="/"
+            path="/happy/home"
             element={
               <Suspense fallback={<Spin spinning fullscreen />}>
                 <Home />
@@ -20,7 +20,7 @@ function App() {
             }
           />
           <Route
-            path="/xiao-liu-ren"
+            path="/happy/xiao-liu-ren"
             element={
               <Suspense fallback={<Spin spinning fullscreen />}>
                 <XiaoLiuRen />

@@ -34,7 +34,7 @@ function Home() {
         <Button
           size="large"
           onClick={() => {
-            navigate('/xiao-liu-ren');
+            navigate('/happy/xiao-liu-ren');
           }}
         >
           小六壬
