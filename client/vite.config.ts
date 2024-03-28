@@ -10,6 +10,7 @@ export default defineConfig({
   server: {
     middlewareMode: true,
   },
+  appType: 'custom',
   base: '/static',
   css: {
     modules: {
@@ -22,6 +23,13 @@ export default defineConfig({
           overrideBrowserslist: ['Chrome > 40', 'ff > 31', 'ie 11'],
         }),
       ],
+    },
+  },
+  build: {
+    manifest: true,
+    outDir: path.join(__dirname, '../server/app/public'),
+    rollupOptions: {
+      input: path.join(__dirname, 'src/main.tsx'),
     },
   },
 });

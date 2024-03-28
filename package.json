@@ -11,6 +11,9 @@
     "typescript": "^5.4.3"
   },
   "scripts": {
-    "dev": "pnpm -r -F @happy-boy/server run dev"
+    "dev": "pnpm -r -F @happy-boy/server run dev",
+    "build:client": "pnpm -r -F @happy-boy/client run build",
+    "build:server": "pnpm -r -F @happy-boy/server run build",
+    "start": "pnpm -r -F @happy-boy/server run start"
   }
 }

@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "egg-bin dev --port 7001",
     "start": "egg-scripts start --daemon --title=egg-server-happy-boy",
-    "tsc": "tsc -p tsconfig.json"
+    "build": "tsc -p tsconfig.json"
   },
   "keywords": [],
   "author": "",
