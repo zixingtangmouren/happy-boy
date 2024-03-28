@@ -17,9 +17,15 @@ importers:
 
   client:
     dependencies:
+      ahooks:
+        specifier: ^3.7.10
+        version: 3.7.10(react@18.2.0)
       antd:
         specifier: ^5.15.4
         version: 5.15.4(react-dom@18.2.0)(react@18.2.0)
+      lottie-web:
+        specifier: ^5.12.2
+        version: 5.12.2
       react:
         specifier: ^18.2.0
         version: 18.2.0
@@ -54,6 +60,9 @@ importers:
 
   server:
     dependencies:
+      chinese-lunar:
+        specifier: ^0.1.4
+        version: 0.1.4
       egg:
         specifier: ^3.20.0
         version: 3.20.0
@@ -1343,6 +1352,23 @@ packages:
       humanize-ms: 1.2.1
     dev: false
 
+  /ahooks@3.7.10(react@18.2.0):
+    resolution: {integrity: sha512-/HLYif7sFA/5qSuWKrwvjDbf3bq+sdaMrUWS7XGCDRWdC2FrG/i+u5LZdakMYc6UIgJTMQ7tGiJCV7sdU4kSIw==}
+    engines: {node: '>=8.0.0'}
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0
+    dependencies:
+      '@babel/runtime': 7.24.1
+      dayjs: 1.11.10
+      intersection-observer: 0.12.2
+      js-cookie: 2.2.1
+      lodash: 4.17.21
+      react: 18.2.0
+      resize-observer-polyfill: 1.5.1
+      screenfull: 5.2.0
+      tslib: 2.6.2
+    dev: false
+
   /ajv@6.12.6:
     resolution: {integrity: sha512-j3fVLgvTo527anyYyJOGTYJbG+vnnQYvE0m5mmkc1TK+nxAppkCLMIL0aZ4dblVCNoGShhm+kzE4ZUykBoMg4g==}
     dependencies:
@@ -1751,6 +1777,10 @@ packages:
   /chardet@0.7.0:
     resolution: {integrity: sha512-mT8iDcrh03qDGRRmoA2hmBJnxpllMR+0/0qlzjqZES6NdiWDcZkCNAk4rPFZ9Q85r27unkiNNg8ZOiwZXBHwcA==}
     dev: true
+
+  /chinese-lunar@0.1.4:
+    resolution: {integrity: sha512-E4seb9UZkSJtkm65Ry2ZLWTw5Z87DOyGcCePdg3ft7da342hnEliMtcDAPSn+YSo/o0xl1Egmhh671kxEJgY+g==}
+    dev: false
 
   /chokidar@3.5.3:
     resolution: {integrity: sha512-Dr3sfKRP6oTcjf2JmUmFJfeVMvXBdegxB0iVQ5eb2V10uFJUCAS8OByZdVAyVb8xXNz3GjjTgj9kLWsZTqE6kw==}
@@ -3373,6 +3403,10 @@ packages:
       wrap-ansi: 6.2.0
     dev: true
 
+  /intersection-observer@0.12.2:
+    resolution: {integrity: sha512-7m1vEcPCxXYI8HqnL8CKI6siDyD+eIWSwgB3DZA+ZTogxk9I4CDnj4wilt9x/+/QbHI4YG5YZNmC6458/e9Ktg==}
+    dev: false
+
   /ip@1.1.9:
     resolution: {integrity: sha512-cyRxvOEpNHNtchU3Ln9KC/auJgup87llfQpQ+t5ghoC/UhL16SWzbueiCsdTnWmqAWl7LadfuwhlqmtOaqMHdQ==}
     dev: false
@@ -3533,6 +3567,10 @@ packages:
       graceful-fs: 4.2.11
       picomatch: 2.3.1
     dev: true
+
+  /js-cookie@2.2.1:
+    resolution: {integrity: sha512-HvdH2LzI/EAZcUwA8+0nKNtWHqS+ZmijLA30RwZA0bo7ToCckjK5MkGhjED9KoRcXO6BaGI3I9UIzSA1FKFPOQ==}
+    dev: false
 
   /js-tokens@4.0.0:
     resolution: {integrity: sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==}
@@ -3803,7 +3841,6 @@ packages:
 
   /lodash@4.17.21:
     resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
-    dev: true
 
   /log-symbols@4.1.0:
     resolution: {integrity: sha512-8XPvpAA8uyhfteu8pIvQxpJZ7SYYdpUivZpGy6sFsBuKRY/7rQGavedeB8aK+Zkyq6upMFVL/9AW6vOYzfRyLg==}
@@ -3822,6 +3859,10 @@ packages:
     hasBin: true
     dependencies:
       js-tokens: 4.0.0
+
+  /lottie-web@5.12.2:
+    resolution: {integrity: sha512-uvhvYPC8kGPjXT3MyKMrL3JitEAmDMp30lVkuq/590Mw9ok6pWcFCwXJveo0t5uqYw1UREQHofD+jVpdjBv8wg==}
+    dev: false
 
   /lower-case@2.0.2:
     resolution: {integrity: sha512-7fm3l3NAF9WfN6W3JOmf5drwpVqX78JtoGJ3A6W0a6ZnldM41w2fV5D490psKFTpMds8TJse/eHLFFsNHHjHgg==}
@@ -5236,6 +5277,11 @@ packages:
 
   /scmp@2.1.0:
     resolution: {integrity: sha512-o/mRQGk9Rcer/jEEw/yw4mwo3EU/NvYvp577/Btqrym9Qy5/MdWGBqipbALgd2lrdWTJ5/gqDusxfnQBxOxT2Q==}
+    dev: false
+
+  /screenfull@5.2.0:
+    resolution: {integrity: sha512-9BakfsO2aUQN2K9Fdbj87RJIEZ82Q9IGim7FqM5OsebfoFC6ZHXgDq/KvniuLTPdeM8wY2o6Dj3WQ7KeQCj3cA==}
+    engines: {node: '>=0.10.0'}
     dev: false
 
   /scroll-into-view-if-needed@3.1.0:

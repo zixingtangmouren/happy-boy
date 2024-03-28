@@ -1,16 +1,32 @@
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
-import Home from './pages/Home';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { lazy, Suspense } from 'react';
+import './modules/common/styles/common.less';
+import { Spin } from 'antd';
+
+const Home = lazy(() => import('./modules/home'));
+const XiaoLiuRen = lazy(() => import('./modules/xiao-liu-ren'));
 
 function App() {
   return (
     <div>
-      教研员平台
       <BrowserRouter basename="/">
-        <Link to="/">首页</Link>
-        <Link to="/about">教研活动</Link>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<div>About</div>} />
+          <Route
+            path="/"
+            element={
+              <Suspense fallback={<Spin spinning fullscreen />}>
+                <Home />
+              </Suspense>
+            }
+          />
+          <Route
+            path="/xiao-liu-ren"
+            element={
+              <Suspense fallback={<Spin spinning fullscreen />}>
+                <XiaoLiuRen />
+              </Suspense>
+            }
+          />
         </Routes>
       </BrowserRouter>
     </div>

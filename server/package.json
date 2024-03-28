@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "chinese-lunar": "^0.1.4",
     "egg": "^3.20.0",
     "egg-scripts": "^3.0.0",
     "egg-view-nunjucks": "^2.3.0",

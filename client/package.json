@@ -12,7 +12,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "ahooks": "^3.7.10",
     "antd": "^5.15.4",
+    "lottie-web": "^5.12.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.22.3"
