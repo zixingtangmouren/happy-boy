@@ -12,6 +12,9 @@ export default class FooBoot implements IBoot {
     // 预备调用 configDidLoad，
     // Config 和 plugin 文件已被引用，
     // 这是修改配置的最后机会。
+    this.app.locals = {
+      title: 'egg-vite-demo',
+    };
   }
 
   configDidLoad() {

@@ -1,12 +1,20 @@
 import { Context } from 'egg';
 import koa2Connect from 'koa2-connect';
+import { createServer } from 'vite';
+import path from 'path';
 
 export default () => {
   return async function viteDevServerMiddleware(ctx: Context, next) {
-    const { service } = ctx;
+    if (!ctx.app.viteServer) {
+      // 创建 Vite 服务器
+      const vite = await createServer({
+        configFile: path.resolve(__dirname, '../../../client/vite.config.ts'),
+      });
+      ctx.logger.info('Vite server created');
+      // 保存服务器实例
+      ctx.app.viteServer = vite;
+    }
 
-    const server = await service.vite.getServer();
-
-    await koa2Connect(server.middlewares)(ctx, next);
+    await koa2Connect(ctx.app.viteServer.middlewares)(ctx, next);
   };
 };
