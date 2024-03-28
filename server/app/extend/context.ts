@@ -9,8 +9,8 @@ export default {
       };
     } else {
       return {
-        js: '<script src="/public/assets/main-DPnZKiAO.js"></script>',
-        css: '<link rel="stylesheet" href="/public/assets/main-BEyngAT-.css">',
+        js: this.app.locals.js.join(''),
+        css: this.app.locals.css.join(''),
       };
     }
   },
