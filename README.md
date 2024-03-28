@@ -20,6 +20,7 @@ $ open http://localhost:7001/
 ## 部署
 
 ```bash
-$ pnpm tsc
+$ pnpm build:client
+$ pnpm build:server
 $ pnpm start
 ```
