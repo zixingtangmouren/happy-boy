@@ -4,7 +4,7 @@ export default {
   getAssets(this: Context) {
     if (this.app.config.env === 'local') {
       return {
-        js: '<script type="module" src="./src/main.tsx"></script>',
+        js: '<script type="module" src="/static/src/main.tsx"></script>',
         css: '',
       };
     } else {

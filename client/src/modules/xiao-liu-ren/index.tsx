@@ -35,17 +35,9 @@ function XiaoLiuRen() {
       .then((res) => {
         if (res.result) {
           setTimeout(() => {
-            animationRef.current.pause();
             setResult(res.result);
-            isRequestRef.current = false; // 重置请求状态
           }, 2000);
         }
-      })
-      .catch(() => {
-        setTimeout(() => {
-          animationRef.current.pause();
-          isRequestRef.current = false; // 重置请求状态
-        }, 1000);
       });
   };
 

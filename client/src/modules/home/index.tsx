@@ -20,6 +20,7 @@ function Home() {
       autoplay: true,
       animationData: dataJson,
     });
+    animationRef.current.setSpeed(1.5);
   });
 
   useUnmount(() => {
@@ -34,7 +35,7 @@ function Home() {
         <Button
           size="large"
           onClick={() => {
-            navigate('/happy/xiao-liu-ren');
+            navigate('/xiao-liu-ren');
           }}
         >
           小六壬

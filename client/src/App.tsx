@@ -12,7 +12,7 @@ function App() {
       <BrowserRouter basename="/happy">
         <Routes>
           <Route
-            path="/happy/home"
+            path="/home"
             element={
               <Suspense fallback={<Spin spinning fullscreen />}>
                 <Home />
@@ -20,7 +20,7 @@ function App() {
             }
           />
           <Route
-            path="/happy/xiao-liu-ren"
+            path="/xiao-liu-ren"
             element={
               <Suspense fallback={<Spin spinning fullscreen />}>
                 <XiaoLiuRen />
