@@ -40,11 +40,19 @@ function Home() {
         >
           小六壬
         </Button>
+        <Button
+          size="large"
+          onClick={() => {
+            navigate('/happy-map');
+          }}
+        >
+          快乐地图
+        </Button>
         <Button size="large" disabled>
           快乐搜索
         </Button>
         <Button size="large" disabled>
-          快乐地图
+          快乐网盘
         </Button>
       </div>
     </div>

@@ -10,10 +10,7 @@ export default class HomeController extends Controller {
       // 使用vite服务输出视图
       const html = await server.transformIndexHtml(
         this.ctx.request.url,
-        await fs.promises.readFile(
-          path.join(__dirname, '../view/index.html'),
-          'utf-8'
-        )
+        await fs.promises.readFile(path.join(__dirname, '../view/index.html'), 'utf-8')
       );
 
       this.ctx.body = await this.ctx.renderString(html, {

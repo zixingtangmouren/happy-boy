@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@amap/amap-jsapi-loader": "^1.0.1",
     "ahooks": "^3.7.10",
     "antd": "^5.15.4",
     "lottie-web": "^5.12.2",
