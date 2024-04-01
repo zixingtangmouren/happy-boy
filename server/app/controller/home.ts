@@ -22,4 +22,8 @@ export default class HomeController extends Controller {
       });
     }
   }
+
+  public async redirect() {
+    this.ctx.redirect('/happy/home');
+  }
 }

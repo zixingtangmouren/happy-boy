@@ -3,10 +3,7 @@ import { Application, IBoot } from 'egg';
 import fs from 'fs';
 import path from 'path';
 
-const manifestPath = path.resolve(
-  __dirname,
-  './app/public/.vite/manifest.json'
-);
+const manifestPath = path.resolve(__dirname, './app/public/.vite/manifest.json');
 
 export default class FooBoot implements IBoot {
   private readonly app: Application;
@@ -35,11 +32,11 @@ export default class FooBoot implements IBoot {
       Object.keys(manifest).forEach((key) => {
         const assetObj = manifest[key];
         if (assetObj.isEntry) {
-          js.push(`<script src="/public/${assetObj.file}" />`);
+          js.push(`<script type="module" src="/static/${assetObj.file}"></script>`);
 
           if (assetObj.css.length) {
             assetObj.css.forEach((cssFile: string) => {
-              css.push(`<link rel="stylesheet" href="/public/${cssFile}" />`);
+              css.push(`<link rel="stylesheet" href="/static/${cssFile}" />`);
             });
           }
         }
